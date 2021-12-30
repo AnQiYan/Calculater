@@ -13,7 +13,7 @@ def inc(x):
 
 def test_answer():
     print("This one is a new line")
-    assert inc(3) == 4
+    assert inc(3) == 3
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
