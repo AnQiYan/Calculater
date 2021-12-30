@@ -25,6 +25,10 @@ def test_answer2():
 def test_mul():
     assert 3*5 == 15
 
+def test_div():
+    assert 10%4 == 2
+
+
 
 class HelloWorld():
     def __init__(self, name):
