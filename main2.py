@@ -1,8 +1,7 @@
-def testMul(x, y):
+def multiplication(x, y):
     ans = x * y
-    ans += 15
     return ans
 
 
-def test_answer():
-    assert testMul(3, 10) == 15
+def testul():
+    assert multiplication(3, 10) == 30
