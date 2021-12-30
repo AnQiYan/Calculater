@@ -22,6 +22,9 @@ def test_answer2():
     print("This one is a new line")
     assert inc(3) == 3
 
+def test_mul():
+    assert 3*5 == 15
+
 
 class HelloWorld():
     def __init__(self, name):
@@ -29,5 +32,3 @@ class HelloWorld():
 
     def pritnName(self):
         print(self.name)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
