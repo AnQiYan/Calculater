@@ -6,6 +6,7 @@
 
 # content of test_sample.py
 def inc(x):
+    print("This one is a new line")
     return x + 1
 
 
