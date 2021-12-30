@@ -10,7 +10,7 @@ def inc(x):
 
 
 def test_answer():
-    assert inc(3) == 5
+    assert inc(3) == 3
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
